@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <meta name="description" content="Projeto conceitual de site para a Torcida Tricolor Independente — história, arquibancada, ações e informações para a Nação Tricolor." />
+  <title>Tricolor Independente — Desde 1972</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <div class="noise" aria-hidden="true"></div>
+  <div class="page-progress" aria-hidden="true"><span id="pageProgress"></span></div>
+
+  <header class="site-header" id="topo">
+    <div class="header-shell">
+      <a class="brand" href="#topo" aria-label="Tricolor Independente — início">
+        <span class="brand-mark" aria-hidden="true">
+          <i></i><i></i><i></i>
+        </span>
+        <span class="brand-copy">
+          <strong>INDEPENDENTE</strong>
+          <small>TRICOLOR • DESDE 1972</small>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#manifesto">Manifesto</a>
+        <a href="#historia">História</a>
+        <a href="#arquibancada">Arquibancada</a>
+        <a href="#acoes">Ações</a>
+      </nav>
+
+      <a class="header-cta" href="#conectar">
+        <span>Conectar</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <a href="#manifesto">Manifesto <span>01</span></a>
+      <a href="#historia">História <span>02</span></a>
+      <a href="#arquibancada">Arquibancada <span>03</span></a>
+      <a href="#acoes">Ações <span>04</span></a>
+      <a href="#conectar">Conectar <span>05</span></a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero section-dark">
+      <div class="hero-grid"></div>
+      <div class="hero-corner hero-corner-a" aria-hidden="true"></div>
+      <div class="hero-corner hero-corner-b" aria-hidden="true"></div>
+
+      <div class="hero-shell">
+        <div class="hero-copy reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-line"></span>
+            <span>São Paulo • Brasil</span>
+            <b>17.04.1972</b>
+          </div>
+
+          <h1>
+            <span class="hero-line hero-line-muted">A VOZ DA</span>
+            <span class="hero-line">ARQUIBANCADA.</span>
+          </h1>
+
+          <div class="hero-lower">
+            <p>
+              História, presença e identidade tricolor. Um projeto digital pensado
+              para traduzir a energia da Independente com linguagem visual direta,
+              urbana e contemporânea.
+            </p>
+
+            <a class="circle-link" href="#historia" aria-label="Conhecer a história">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M6 14l6 6 6-6"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-art reveal" data-delay="140">
+          <div class="hero-art-frame">
+            <div class="art-topline">
+              <span>TTI / SP</span>
+              <span>MAIS DE 50 ANOS</span>
+            </div>
+
+            <div class="monogram" aria-hidden="true">
+              <span class="mono-left">IN</span>
+              <span class="mono-right">DE</span>
+            </div>
+
+            <div class="art-sash" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+
+            <div class="art-bottom">
+              <span>TRICOLOR</span>
+              <strong>INDEPENDENTE</strong>
+              <span>1972 → HOJE</span>
+            </div>
+          </div>
+
+          <div class="hero-sticker">
+            <span>MEU</span>
+            <strong>LUGAR</strong>
+            <span>É AQUI</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="ticker" aria-label="Destaques">
+        <div class="ticker-track">
+          <span>INDEPENDENTE</span><i>★</i><span>SÃO PAULO FUTEBOL CLUBE</span><i>★</i><span>DESDE 1972</span><i>★</i><span>ARQUIBANCADA</span><i>★</i>
+          <span aria-hidden="true">INDEPENDENTE</span><i aria-hidden="true">★</i><span aria-hidden="true">SÃO PAULO FUTEBOL CLUBE</span><i aria-hidden="true">★</i><span aria-hidden="true">DESDE 1972</span><i aria-hidden="true">★</i><span aria-hidden="true">ARQUIBANCADA</span><i aria-hidden="true">★</i>
+        </div>
+      </div>
+    </section>
+
+    <section class="manifesto" id="manifesto">
+      <div class="section-shell manifesto-grid">
+        <div class="section-label reveal">
+          <span>01</span>
+          <p>Manifesto</p>
+        </div>
+
+        <div class="manifesto-copy reveal" data-delay="80">
+          <p class="kicker">Não é só assistir. É fazer parte.</p>
+          <h2>
+            A arquibancada transforma <em>90 minutos</em> em memória coletiva.
+          </h2>
+          <p class="body-copy">
+            Bandeiras, bateria, voz e presença. A identidade da Independente nasce
+            do encontro entre gerações e da relação de quem acompanha o São Paulo
+            dentro e fora de casa.
+          </p>
+        </div>
+
+        <div class="manifesto-side reveal" data-delay="160">
+          <div class="vertical-word" aria-hidden="true">TRICOLOR</div>
+          <div class="quote-card">
+            <span>✦</span>
+            <p>“Cada torcedor que víamos com a camisa do São Paulo era convidado a se integrar.”</p>
+            <small>Relato histórico da fundação</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="history section-dark" id="historia">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <div>
+            <span class="overline">02 / HISTÓRIA</span>
+            <h2>UMA HISTÓRIA<br><b>QUE OCUPA ESPAÇO.</b></h2>
+          </div>
+          <p>
+            A Independente nasceu em 1972, a partir de um grupo de torcedores que buscava
+            uma nova forma de organização e presença nas arquibancadas.
+          </p>
+        </div>
+
+        <div class="timeline" role="list">
+          <article class="timeline-item reveal" role="listitem">
+            <span class="timeline-number">01</span>
+            <time datetime="1972-04-17">17 ABR 1972</time>
+            <h3>Fundação oficial</h3>
+            <p>O nome Tricolor Independente foi escolhido para representar a ideia de autonomia em relação ao clube.</p>
+            <span class="timeline-rule"></span>
+          </article>
+
+          <article class="timeline-item reveal" data-delay="80" role="listitem">
+            <span class="timeline-number">02</span>
+            <time datetime="1972-04-23">23 ABR 1972</time>
+            <h3>Primeiro jogo</h3>
+            <p>A torcida compareceu oficialmente pela primeira vez a São Paulo x Portuguesa, no Pacaembu.</p>
+            <span class="timeline-rule"></span>
+          </article>
+
+          <article class="timeline-item reveal" data-delay="160" role="listitem">
+            <span class="timeline-number">03</span>
+            <time datetime="1998-11-11">11 NOV 1998</time>
+            <h3>Nova fase</h3>
+            <p>Foi fundado o G.R.E.C. Tricolor Independente, iniciando um novo ciclo institucional da agremiação.</p>
+            <span class="timeline-rule"></span>
+          </article>
+        </div>
+
+        <a class="text-link reveal" href="https://independentenet.com.br/historia/" target="_blank" rel="noreferrer">
+          <span>Ler a história completa na fonte oficial</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <section class="stands" id="arquibancada">
+      <div class="section-shell">
+        <div class="section-heading section-heading-light reveal">
+          <div>
+            <span class="overline">03 / ARQUIBANCADA</span>
+            <h2>O RITUAL<br><b>ANTES DO APITO.</b></h2>
+          </div>
+          <p>
+            Um sistema visual inspirado nos elementos que constroem a atmosfera de jogo:
+            encontro, deslocamento, bateria e arquibancada.
+          </p>
+        </div>
+
+        <div class="ritual-grid">
+          <article class="ritual-card ritual-card-red reveal">
+            <span class="card-index">01</span>
+            <div class="ritual-icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><path d="M10 50h44M16 44V18h32v26M22 44V26h20v18M27 34h10"/></svg>
+            </div>
+            <h3>PONTO<br>DE ENCONTRO</h3>
+            <p>Onde a experiência começa antes de entrar no estádio.</p>
+          </article>
+
+          <article class="ritual-card ritual-card-black reveal" data-delay="70">
+            <span class="card-index">02</span>
+            <div class="ritual-icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><path d="M12 42h40M18 42V28h28v14M22 28l6-10h8l6 10M24 50h.01M40 50h.01"/></svg>
+            </div>
+            <h3>CARAVANA</h3>
+            <p>A estrada como extensão da arquibancada.</p>
+          </article>
+
+          <article class="ritual-card ritual-card-outline reveal" data-delay="140">
+            <span class="card-index">03</span>
+            <div class="ritual-icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><path d="M20 16v32M44 16v32M20 22h24M20 42h24M32 22v20"/></svg>
+            </div>
+            <h3>BATERIA</h3>
+            <p>Ritmo que organiza a voz coletiva durante o jogo.</p>
+          </article>
+
+          <article class="ritual-card ritual-card-white reveal" data-delay="210">
+            <span class="card-index">04</span>
+            <div class="ritual-icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><path d="M12 46c10-20 30-20 40 0M18 40v-8M26 34v-8M38 34v-8M46 40v-8"/></svg>
+            </div>
+            <h3>ARQUIBANCADA</h3>
+            <p>O lugar onde milhares viram uma só voz.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="visual-break section-dark" aria-label="Identidade tricolor">
+      <div class="visual-break-inner">
+        <div class="big-type" aria-hidden="true">
+          <span>INDEPENDENTE</span>
+          <span>INDEPENDENTE</span>
+        </div>
+        <div class="visual-seal reveal">
+          <span>SÃO PAULO</span>
+          <strong>72</strong>
+          <span>TRICOLOR</span>
+        </div>
+        <p class="visual-copy reveal" data-delay="100">PRESENÇA.<br>RITMO.<br>IDENTIDADE.</p>
+      </div>
+    </section>
+
+    <section class="actions" id="acoes">
+      <div class="section-shell">
+        <div class="section-label reveal">
+          <span>04</span>
+          <p>Além do jogo</p>
+        </div>
+
+        <div class="actions-heading reveal" data-delay="70">
+          <h2>A TORCIDA TAMBÉM<br><em>ACONTECE FORA</em><br>DO ESTÁDIO.</h2>
+          <p>
+            O site oficial da Independente divulga ações sociais, atividades ligadas à bateria,
+            informações institucionais, sede, sub-sedes e iniciativas para associados.
+          </p>
+        </div>
+
+        <div class="actions-list">
+          <a class="action-row reveal" href="https://independentenet.com.br/" target="_blank" rel="noreferrer">
+            <span class="action-no">01</span>
+            <strong>Ações sociais</strong>
+            <p>Iniciativas comunitárias divulgadas pela organização.</p>
+            <span class="action-arrow">↗</span>
+          </a>
+          <a class="action-row reveal" data-delay="60" href="https://independentenet.com.br/" target="_blank" rel="noreferrer">
+            <span class="action-no">02</span>
+            <strong>Escolinha de bateria</strong>
+            <p>Atividades voltadas ao ritmo de arquibancada.</p>
+            <span class="action-arrow">↗</span>
+          </a>
+          <a class="action-row reveal" data-delay="120" href="https://independentenet.com.br/sub-sedes/" target="_blank" rel="noreferrer">
+            <span class="action-no">03</span>
+            <strong>Sede e Casa Independente</strong>
+            <p>Informações institucionais e pontos de presença em São Paulo.</p>
+            <span class="action-arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="connect section-dark" id="conectar">
+      <div class="connect-grid" aria-hidden="true"></div>
+      <div class="section-shell connect-shell">
+        <div class="connect-copy reveal">
+          <span class="overline">05 / CONECTAR</span>
+          <h2>O PRÓXIMO<br>JOGO COMEÇA<br><b>ANTES.</b></h2>
+        </div>
+
+        <div class="connect-links reveal" data-delay="120">
+          <p>
+            Para informações atualizadas de associação, eventos, caravanas e produtos,
+            acesse os canais mantidos pela própria Independente.
+          </p>
+
+          <div class="link-stack">
+            <a href="https://independentenet.com.br/" target="_blank" rel="noreferrer">
+              <span>Site oficial</span><b>↗</b>
+            </a>
+            <a href="https://eventos.torcidaindependente.com.br/" target="_blank" rel="noreferrer">
+              <span>Eventos</span><b>↗</b>
+            </a>
+            <a href="https://loja.independentenet.com.br/" target="_blank" rel="noreferrer">
+              <span>Loja oficial</span><b>↗</b>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-shell">
+      <div class="footer-brand">
+        <div class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div>
+          <strong>INDEPENDENTE</strong>
+          <span>TRICOLOR • DESDE 1972</span>
+        </div>
+      </div>
+
+      <p>
+        Projeto conceitual de interface, sem vínculo oficial com a Torcida Tricolor Independente
+        ou com o São Paulo Futebol Clube. Conteúdo histórico baseado em fontes oficiais da torcida.
+      </p>
+
+      <div class="footer-meta">
+        <span>© <span id="year"></span> Concept UI</span>
+        <a href="#topo">Voltar ao topo ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
