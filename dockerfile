@@ -1,10 +1,9 @@
-FROM nginx
+FROM nginx:latest
 
 WORKDIR /usr/share/nginx/html
 
 COPY index.html .
-COPY style.css .
+COPY styles.css .
 COPY script.js .
-COPY assets/ .
 
 EXPOSE 80
